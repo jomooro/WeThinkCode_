@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="~{/layout.html}">
+<head></head>
+<body>
+<div layout:fragment="contents">
+<form method="post" action="expense.action" enctype="application/x-www-form-urlencoded">
+<label for="description">Description</label>
+<input type="text" id="description" name="description">
+
+<label for="date">Date (dd/mm/yyyy) e.g 21/10/2023</label>
+<input type="text" id="date" name="date" pattern="\d{2}/\d{2}/\d{4}" required>
+
+<label for="amount">Amount (no cents allowed)</label>
+<input type="number" id="amount" name="amount" min="1">
+
+<input id="submit" type="submit" value="Submit"/>
+</form>
+</div>
+</body>
+</html>
