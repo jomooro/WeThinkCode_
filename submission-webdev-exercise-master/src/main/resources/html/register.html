@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>New User Registration</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <div class="register">
+        <form action="" method="get" class="New User Registration">
+            <img class="sign-up">
+            <header>
+                <h1>New User Registration</h1>
+            </header>
+            <div class="firstname">
+                <label for="firstname">Firstname:</label>
+                <input type="text" name="firstname" id="firstname" required autofocus placeholder="FirstName">
+            </div>
+            <div class="lastname">
+                <label for="lastname">Lastname:</label>
+                <input type="text" name="lastname" id="lastname" required placeholder="LastName">
+            </div>
+            <div class="email">
+                <label for="email">Enter your email:</label>
+                <input type="email" name="email" id="email" required placeholder="Email">
+            </div>
+            <div class="password">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" minlength="8" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]$" placeholder="Password">
+                <input type="password" name="password" id="password" minlength="8" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]$" placeholder="Confirm Password">
+            </div>
+            <div class="button">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+        <a href="./ts_and_cs.html">Terms and Conditions</a>
+    </div>
+</body>
+</html>
