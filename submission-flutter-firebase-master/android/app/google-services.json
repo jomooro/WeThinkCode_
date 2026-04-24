@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "187244036891",
+    "project_id": "submission-flutter-fireb-be572",
+    "storage_bucket": "submission-flutter-fireb-be572.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187244036891:android:444fce76a834d0183409be",
+        "android_client_info": {
+          "package_name": "za.co.wethinkcode.widgets_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaWL5nDoE0I5U_sB_aFqPy4l-ibj1Hi1A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
